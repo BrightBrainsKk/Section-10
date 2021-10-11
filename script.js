@@ -45,3 +45,28 @@ if (lovScore > 70) {
 } else if (lovScore <= 30) {
     alert('Your love score is ' + lovScore + '%' + "You go todether like oil and water.");
 }
+
+//----10 lesson---------
+
+let i = 0;
+while (i < 10) { // выводит 0, затем 1, затем 2,3,
+  alert( i );
+  i++;
+}
+
+var numberOfBottles = 99
+while (numberOfBottles >= 0) {
+   var bottleWord = "бутылка";
+   if (numberOfBottles === 1) {
+       bottleWord = "бутылки";
+   }
+   console.log (numberOfBottles + "" + bottleWord + "пива на стене");
+   console.log (numberOfBottles + "" + bottleWord + "пива");
+   console.log ("Убери один, разнеси");
+numberOfBottles--;
+   console.log (numberOfBottles + "" + bottleWord + "пива на стене.");
+}
+
+
+
+
